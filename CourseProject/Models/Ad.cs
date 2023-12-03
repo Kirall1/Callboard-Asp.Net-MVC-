@@ -36,8 +36,8 @@ namespace CourseProject.Models
 
         [Required(ErrorMessage = "Please load at least one photo")]
         public string Photos { get; set; } = String.Empty;
-        
 
-        public DateTime CreatedDate { get; set; }
+
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
     }
 }
