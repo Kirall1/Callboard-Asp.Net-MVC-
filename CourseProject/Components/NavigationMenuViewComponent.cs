@@ -14,8 +14,8 @@ namespace CourseProject.Components
         public IViewComponentResult Invoke()
         {
             ViewBag.SelectedCategory = RouteData?.Values["category"];
-            return View(repository.Ads
-            .Select(x => x.Category)
+            return View(repository.Categories
+            .Select(x => x.Name)
             .Distinct()
             .OrderBy(x => x));
         }

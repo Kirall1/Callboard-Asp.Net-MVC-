@@ -68,6 +68,23 @@ namespace CourseProject.Migrations
 
                     b.ToTable("Ads");
                 });
+
+            modelBuilder.Entity("CourseProject.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryID"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CategoryID");
+
+                    b.ToTable("Categories");
+                });
 #pragma warning restore 612, 618
         }
     }
