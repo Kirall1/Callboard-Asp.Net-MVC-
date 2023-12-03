@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Moq;
-using CourseProject.Components;
 using CourseProject.Models;
 using Xunit;
 using CourseProject.Controllers;

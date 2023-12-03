@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Moq;
-using CourseProject.Infrastructure;
-using CourseProject.Models.ViewModels;
 using Xunit;
 
 

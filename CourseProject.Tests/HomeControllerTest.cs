@@ -5,12 +5,11 @@ using CourseProject.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Moq;
-using CourseProject.Controllers;
 using CourseProject.Models;
 using Xunit;
 using CourseProject.Models.ViewModels;
 
-namespace SportsStore.Tests
+namespace CourseProject.Tests
 {
     public class HomeControllerTests
     {
