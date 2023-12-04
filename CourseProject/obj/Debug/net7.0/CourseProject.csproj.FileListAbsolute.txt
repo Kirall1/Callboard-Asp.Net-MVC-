@@ -71,3 +71,5 @@ C:\SCCourseWork\CourseProject\obj\Debug\net7.0\refint\CourseProject.dll
 C:\SCCourseWork\CourseProject\obj\Debug\net7.0\CourseProject.pdb
 C:\SCCourseWork\CourseProject\obj\Debug\net7.0\CourseProject.genruntimeconfig.cache
 C:\SCCourseWork\CourseProject\obj\Debug\net7.0\ref\CourseProject.dll
+C:\SCCourseWork\CourseProject\bin\Debug\net7.0\libman.json
+C:\SCCourseWork\CourseProject\bin\Debug\net7.0\CourseProject.staticwebassets.runtime.json
