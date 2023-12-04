@@ -26,6 +26,11 @@
     color: initial;
 }
 
+.not-link-logo {
+    text-decoration: none;
+    color: white;
+}
+
 .ad-view {
     font-family: Arial, sans-serif;
     display: flex;
