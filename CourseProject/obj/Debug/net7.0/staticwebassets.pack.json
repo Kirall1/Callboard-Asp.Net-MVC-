@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\3\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\2.jpg",
+      "PackagePath": "staticwebassets\\Photos\\3\\2.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\3.jpg",
+      "PackagePath": "staticwebassets\\Photos\\3\\3.jpg"
+    },
+    {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
@@ -715,6 +727,10 @@
     {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\styles\\styles.css",
+      "PackagePath": "staticwebassets\\styles\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CourseProject.Microsoft.AspNetCore.StaticWebAssets.props",

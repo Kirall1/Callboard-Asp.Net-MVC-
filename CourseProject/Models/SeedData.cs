@@ -39,7 +39,7 @@ namespace CourseProject.Models
                         Description = "A modern smartphone with advanced features",
                         Price = 599.99m,
                         Category = "Electronics",
-                        Photos = "/Photos/smartphone.jpg",
+                        Photos = "/Photos/1/1.jpg",
                         CreatedDate = DateTime.Now
                     },
                     new Ad
@@ -51,7 +51,7 @@ namespace CourseProject.Models
                         Description = "A sturdy mountain bike for off-road adventures",
                         Price = 799.99m,
                         Category = "Sports",
-                        Photos = "/Photos/mountain_bike.jpg",
+                        Photos = "/Photos/2/1.jpg",
                         CreatedDate = DateTime.Now
                     },
                     new Ad
@@ -63,7 +63,7 @@ namespace CourseProject.Models
                         Description = "A powerful laptop with advanced features",
                         Price = 1299.99m,
                         Category = "Electronics",
-                        Photos = "/Photos/laptop.jpg",
+                        Photos = "/Photos/3/1.jpg|/Photos/3/2.jpg|/Photos/3/1.jpg|/Photos/3/3.jpg",
                         CreatedDate = DateTime.Now
                     },
                     new Ad
@@ -75,7 +75,7 @@ namespace CourseProject.Models
                         Description = "Rustic wood coffee table",
                         Price = 199.99m,
                         Category = "Furniture",
-                        Photos = "/Photos/coffeetable.jpg",
+                        Photos = "/Photos/4/1.jpg",
                         CreatedDate = DateTime.Now
                     }
 
