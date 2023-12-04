@@ -1,0 +1,22 @@
+@model Ad;
+
+<body>
+    <div class="ad-view">
+        <div class="sidebar">
+            @foreach (string s in Model.Photos.Split("|"))
+            {
+                <img src="@s">
+            }
+        </div>
+        <div class="content">
+            <img src="@Model.Photos.Split("|")[0]">
+            <div>
+                <h1>@Model.Name</h1>
+                <h1>@Model.Price</h1>
+                <p>Owner's number: @Model.OwnerPhone</p>
+                <p>City: @Model.City</p>
+                <p>Added on: @Model.CreatedDate</p>
+            </div>
+        </div>
+    </div>
+</body>

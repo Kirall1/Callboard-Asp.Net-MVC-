@@ -1,0 +1,76 @@
+.card-wrapper {
+    display: flex;
+    margin-bottom: 15px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+
+.card-wrapper img {
+    margin-left: 10px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.card-wrapper .details {
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.card-wrapper .details .price {
+    margin-left: 15px;
+}
+
+.not-link {
+    text-decoration: none;
+    color: initial;
+}
+
+.ad-view {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+.ad-view .sidebar {
+    width: 300px;
+    height: auto;
+    left: 0;
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ad-view .sidebar img {
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.ad-view .content {
+    width: auto;
+    right: 0;
+    top: 0;
+    flex: 1;
+    display: flex;
+}
+
+.ad-view .content img {
+    width: 800px;
+    height: auto;
+    margin: 10px;
+    float: left;
+}
+
+.ad-view .content h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px;
+    clear: both;
+    flex: 1;
+}
+
+.ad-view .content p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px;
+}
