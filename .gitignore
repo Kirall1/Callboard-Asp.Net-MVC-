@@ -1,7 +1,4 @@
 .vscode/
 .vs/
 CourseProject/.vs
-CourseProject/bin
-CourseProject/obj
-CourseProject.Test/obj
-CourseProject.Test/bin
+CourseProject/.vscode
