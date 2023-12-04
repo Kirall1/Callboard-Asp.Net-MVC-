@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SCCourseWork\\CourseProject\\CourseProject.csproj": {}
+    "c:\\SCCourseWork\\CourseProject\\CourseProject.csproj": {}
   },
   "projects": {
-    "C:\\SCCourseWork\\CourseProject\\CourseProject.csproj": {
+    "c:\\SCCourseWork\\CourseProject\\CourseProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SCCourseWork\\CourseProject\\CourseProject.csproj",
+        "projectUniqueName": "c:\\SCCourseWork\\CourseProject\\CourseProject.csproj",
         "projectName": "CourseProject",
-        "projectPath": "C:\\SCCourseWork\\CourseProject\\CourseProject.csproj",
+        "projectPath": "c:\\SCCourseWork\\CourseProject\\CourseProject.csproj",
         "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
-        "outputPath": "C:\\SCCourseWork\\CourseProject\\obj\\",
+        "outputPath": "c:\\SCCourseWork\\CourseProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
