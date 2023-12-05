@@ -3,11 +3,15 @@
 <body>
     <div class="ad-view">
         <div class="sidebar">
-            @foreach (string s in Model.Photos.Split("|"))
+            <div class="image-container not-highlighted" id="1" onclick="showImage('@Model.Photos.Split("|")[0]', this)"
+                onmouseover="highlightContainer(this)" onmouseout="resetContainer(this)">
+                <img src="@Model.Photos.Split("|")[0]" />
+            </div>
+            @for (int i = 1; i < Model.Photos.Split("|").Length; i++)
             {
-                <div class="image-container not-highlighted" onclick="showImage('@s', this)"
+                <div class="image-container not-highlighted" onclick="showImage('@Model.Photos.Split("|")[i]', this)"
                     onmouseover="highlightContainer(this)" onmouseout="resetContainer(this)">
-                    <img src="@s" />
+                    <img src="@Model.Photos.Split("|")[i]" />
                 </div>
             }
         </div>
