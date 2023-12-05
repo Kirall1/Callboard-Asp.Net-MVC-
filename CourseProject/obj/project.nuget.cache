@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eit5sgfQUK+Vxp6l2+KS3Xa7Z07ui8eo5n8lgZfiMEZsqngO7S41h5TOllSvZeRgKgGlSKkWQ0ta8Ai0vFwZ1Q==",
+  "dgSpecHash": "qPrJaiQXZ2e09VhcvfomMCaYztk2mzTdkcVrZWUwxPMo+B3L2Ay5t3mBW5S45xygclcs5bdnm70TTjlgsHb/lQ==",
   "success": true,
-  "projectFilePath": "c:\\SCCourseWork\\CourseProject\\CourseProject.csproj",
+  "projectFilePath": "C:\\SCCourseWork\\CourseProject\\CourseProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kirill\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Kirill\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

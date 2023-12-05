@@ -5,18 +5,29 @@
         <div class="sidebar">
             @foreach (string s in Model.Photos.Split("|"))
             {
-                <img src="@s">
+                <div class="image-container not-highlighted" onclick="showImage('@s', this)"
+                    onmouseover="highlightContainer(this)" onmouseout="resetContainer(this)">
+                    <img src="@s" />
+                </div>
             }
         </div>
         <div class="content">
-            <img src="@Model.Photos.Split("|")[0]">
+            <div class="selected-image-container" id="selectedImageContainer">
+                <img src="@Model.Photos.Split("|")[0]">
+            </div>
             <div>
                 <h1>@Model.Name</h1>
-                <h1>@Model.Price</h1>
+                <h1>$@Model.Price</h1>
+                <p>Owner: @Model.Owner</p>
                 <p>Owner's number: @Model.OwnerPhone</p>
                 <p>City: @Model.City</p>
                 <p>Added on: @Model.CreatedDate</p>
             </div>
         </div>
     </div>
+    <div class="description">
+        <h1>Description:</h1>
+        <p>@Model.Description</p>
+    </div>
+    <script src="ad-view.js"> </script>
 </body>
