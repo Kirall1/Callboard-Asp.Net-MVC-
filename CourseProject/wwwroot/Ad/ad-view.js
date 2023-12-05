@@ -1,4 +1,5 @@
-let selectedElement = null;
+let selectedElement = document.getElementById('1');
+selectElement(selectedElement);
 
 function showImage(imageSrc, element) {
     var contentContainer = document.getElementById('selectedImageContainer');
@@ -9,6 +10,11 @@ function showImage(imageSrc, element) {
     selectedImage.src = imageSrc;
 
     contentContainer.appendChild(selectedImage);
+
+    selectElement(element);
+}
+
+function selectElement(element) {
     if (selectedElement) {
         selectedElement.classList.remove('selected');
     }
