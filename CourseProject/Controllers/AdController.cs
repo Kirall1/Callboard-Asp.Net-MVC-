@@ -14,6 +14,7 @@ namespace CourseProject.Controllers
 
         public ViewResult Index(int? adId) =>
             View(repository.Ads.FirstOrDefault(a => a.AdID == adId));
+
     }
 
 }

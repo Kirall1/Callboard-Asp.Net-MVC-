@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\sign-in.js",
+      "PackagePath": "staticwebassets\\Account\\sign-in.js"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\sign-up.js",
+      "PackagePath": "staticwebassets\\Account\\sign-up.js"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Ad\\ad-view.js",
+      "PackagePath": "staticwebassets\\Ad\\ad-view.js"
+    },
+    {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\1.jpg",
       "PackagePath": "staticwebassets\\Photos\\3\\1.jpg"
     },
@@ -11,6 +23,14 @@
     {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\3.jpg",
       "PackagePath": "staticwebassets\\Photos\\3\\3.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\4.jpg",
+      "PackagePath": "staticwebassets\\Photos\\3\\4.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\5.jpg",
+      "PackagePath": "staticwebassets\\Photos\\3\\5.jpg"
     },
     {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",

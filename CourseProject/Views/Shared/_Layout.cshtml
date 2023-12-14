@@ -19,8 +19,8 @@
     </div>
 
     <div class="ml-auto">
-      <button class="btn btn-light">Sign In</button>
-      <button class="btn btn-primary">Sign Up</button>
+      <button class="btn btn-light" onclick="openLink('/Account/SignIn')">Sign In</button>
+      <button class="btn btn-primary" onclick="openLink('/Account/SignUp')">Sign Up</button>
     </div>
 
   </div>
@@ -36,5 +36,10 @@
     </div>
   </div>
 </body>
+<script>
+  function openLink(link) {
+    window.location.href = link;
+  }
+</script>
 
 </html>
