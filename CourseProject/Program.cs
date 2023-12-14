@@ -14,6 +14,9 @@ builder.Services.AddScoped<IPlatformRepository, EFPlatformRepository>();
 var app = builder.Build();
 
 app.UseStaticFiles();
+app.MapControllerRoute("signup", "Account/SignUp", new { Controller = "Account", action = "SignUp" });
+app.MapControllerRoute("signin", "Account/SignIn", new { Controller = "Account", action = "SignIn" });
+
 app.MapControllerRoute("catpage", "{category}/Page{adPage:int}", new { Controller = "Home", action = "Index" });
 app.MapControllerRoute("page", "Page{adPage:int}", new { Controller = "Home", action = "Index", productPage = 1 });
 app.MapControllerRoute("category", "{category}", new { Controller = "Home", action = "Index", productPage = 1 });
@@ -22,6 +25,8 @@ app.MapControllerRoute("pagination", "Ads/Page{adPage}", new { Controller = "Hom
 
 app.MapControllerRoute("adpage", "Ad/{adId:int}", new { Controller = "Ad", action = "Index" });
 
+
+// app.MapControllerRoute("signin", "SignIn", new { Controller = "Account", action = "Index" });
 app.MapDefaultControllerRoute();
 
 SeedData.EnsurePopulated(app);

@@ -140,3 +140,11 @@
     cursor: pointer;
     border-radius: 10px;
 }
+
+.account-form {
+    width: 40%;
+}
+
+.from-pole {
+    margin-left: 0px;
+}
