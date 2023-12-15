@@ -12,10 +12,10 @@ namespace CourseProject.Controllers
             this.repository = repository;
         }
 
-        public ViewResult SignUp() => View(new User());
+        [HttpGet]
+        public ViewResult SignUp() => View();
 
-        public ViewResult SignIn() => View(new User());
-
-        //public ViewResult Index() => View(new User());
+        [HttpGet]
+        public ViewResult SignIn() => View();
     }
 }
