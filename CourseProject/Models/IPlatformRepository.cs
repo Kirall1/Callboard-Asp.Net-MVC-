@@ -4,5 +4,6 @@
     {
         IQueryable<Ad> Ads { get; }
         IQueryable<Category> Categories { get; }
+        IQueryable<User> Users { get; }
     }
 }

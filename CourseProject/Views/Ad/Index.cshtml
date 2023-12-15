@@ -1,0 +1,37 @@
+@model Ad;
+
+<body>
+    <div class="ad-view">
+        <div class="sidebar">
+            <div class="image-container not-highlighted" id="1" onclick="showImage('@Model.Photos.Split("|")[0]', this)"
+                onmouseover="highlightContainer(this)" onmouseout="resetContainer(this)">
+                <img src="@Model.Photos.Split("|")[0]" />
+            </div>
+            @for (int i = 1; i < Model.Photos.Split("|").Length; i++)
+            {
+                <div class="image-container not-highlighted" onclick="showImage('@Model.Photos.Split("|")[i]', this)"
+                    onmouseover="highlightContainer(this)" onmouseout="resetContainer(this)">
+                    <img src="@Model.Photos.Split("|")[i]" />
+                </div>
+            }
+        </div>
+        <div class="content">
+            <div class="selected-image-container" id="selectedImageContainer">
+                <img src="@Model.Photos.Split("|")[0]">
+            </div>
+            <div>
+                <h1>@Model.Name</h1>
+                <h1>$@Model.Price</h1>
+                <p>Owner: @Model.Owner</p>
+                <p>Owner's number: @Model.OwnerPhone</p>
+                <p>City: @Model.City</p>
+                <p>Added on: @Model.CreatedDate</p>
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <h1>Description:</h1>
+        <p>@Model.Description</p>
+    </div>
+    <script src="ad-view.js"> </script>
+</body>
