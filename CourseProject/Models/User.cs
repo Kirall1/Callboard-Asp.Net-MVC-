@@ -9,12 +9,10 @@ namespace CourseProject.Models
 
         public string? Name { get; set; } = String.Empty;
 
-
-        [Required(ErrorMessage = "Please enter a password")]
         public string Password { get; set; } = String.Empty;
 
-
-        [Required(ErrorMessage = "Please enter a name")]
         public string Phone { get; set; } = String.Empty;
+
+        public string Role { get; set; } = "User";
     }
 }
