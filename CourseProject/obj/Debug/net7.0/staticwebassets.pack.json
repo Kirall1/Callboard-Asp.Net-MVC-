@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\sign-in.js",
-      "PackagePath": "staticwebassets\\Account\\sign-in.js"
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\account.js",
+      "PackagePath": "staticwebassets\\Account\\account.js"
     },
     {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\sign-up.js",

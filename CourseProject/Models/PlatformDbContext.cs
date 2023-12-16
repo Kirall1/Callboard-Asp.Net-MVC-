@@ -7,6 +7,5 @@ namespace CourseProject.Models
         public PlatformDbContext(DbContextOptions<PlatformDbContext> options) : base(options) { }
         public DbSet<Ad> Ads => Set<Ad>();
         public DbSet<Category> Categories => Set<Category>();
-        public DbSet<User> Users => Set<User>();
     }
 }

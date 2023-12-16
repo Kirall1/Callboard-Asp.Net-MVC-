@@ -1,4 +1,4 @@
-@model User;
+@model SignUpModel;
 @{
     Layout = "~/Views/Shared/_AccountLayout.cshtml";
 }
@@ -16,7 +16,7 @@
     <div class="container mt-5">
         <h2 class="mb-4 text-center navbar-brand" style="font-size: 24px;">Регистрация</h2>
         <div class="d-flex justify-content-center">
-            <form asp-action="Registration" method="post" class="text-center account-form" id="sign_up_form">
+            <form asp-action="SignUp" method="post" class="text-center account-form" id="sign_up_form">
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Phone" type="tel" name="phone" id="phone" class="form-control"
@@ -29,7 +29,7 @@
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Name" type="text" name="name" id="name" class="form-control"
-                            placeholder="Введите имя">
+                            placeholder="Введите логин">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
@@ -46,8 +46,8 @@
                 </div>
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
-                        <input type="password" name="confirm_password" id="confirm_password" class="form-control"
-                            placeholder="Подтвердите пароль">
+                        <input asp-for="ConfirmPassword" type="password" name="confirm_password" id="confirm_password"
+                            class="form-control" placeholder="Подтвердите пароль">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
@@ -57,7 +57,8 @@
             </form>
         </div>
     </div>
-    <script src="sign-up.js"> </script>
+    <script src="sign-up.js" type="module"> </script>
+    <script src="account.js" type="module"></script>
 </body>
 
 </html>

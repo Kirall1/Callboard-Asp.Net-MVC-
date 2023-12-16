@@ -11,6 +11,6 @@
 
         public IQueryable<Ad> Ads => context.Ads;
         public IQueryable<Category> Categories => context.Categories;
-        public IQueryable<User> Users => context.Users;
+
     }
 }

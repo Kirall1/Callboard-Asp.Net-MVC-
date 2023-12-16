@@ -33,7 +33,7 @@ namespace CourseProject.Models
                     new Ad
                     {
                         Owner = "John Doe",
-                        OwnerPhone = "123-456-7890",
+                        OwnerPhone = "1234567890",
                         City = "New York",
                         Name = "Smartphone",
                         Description = "A modern smartphone with advanced features",
@@ -45,7 +45,7 @@ namespace CourseProject.Models
                     new Ad
                     {
                         Owner = "Jane Doe",
-                        OwnerPhone = "987-654-3210",
+                        OwnerPhone = "9876543210",
                         City = "Los Angeles",
                         Name = "Mountain Bike",
                         Description = "A sturdy mountain bike for off-road adventures",
@@ -57,7 +57,7 @@ namespace CourseProject.Models
                     new Ad
                     {
                         Owner = "Bob Smith",
-                        OwnerPhone = "000000000000",
+                        OwnerPhone = "1212121212",
                         City = "Chicago",
                         Name = "Laptop",
                         Description = "A powerful laptop with advanced features",
@@ -69,7 +69,7 @@ namespace CourseProject.Models
                     new Ad
                     {
                         Owner = "Sally Johnson",
-                        OwnerPhone = "555-1234",
+                        OwnerPhone = "5551234555",
                         City = "New York",
                         Name = "Coffee Table",
                         Description = "Rustic wood coffee table",

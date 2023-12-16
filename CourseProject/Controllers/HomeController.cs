@@ -26,7 +26,12 @@ namespace CourseProject.Controllers
                 {
                     CurrentPage = adPage,
                     ItemsPerPage = PageSize,
-                    TotalItems = category == null ? repository.Ads.Count() : repository.Ads.Where(e => e.Category == category).Count()
+                    TotalItems = category == null ?
+                    repository.Ads
+                    .Count() :
+                    repository.Ads
+                    .Where(e => e.Category == category)
+                    .Count()
                 }
             });
     }
