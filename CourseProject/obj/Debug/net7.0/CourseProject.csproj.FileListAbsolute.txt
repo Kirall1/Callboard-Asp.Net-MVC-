@@ -73,3 +73,4 @@ C:\SCCourseWork\CourseProject\obj\Debug\net7.0\CourseProject.genruntimeconfig.ca
 C:\SCCourseWork\CourseProject\obj\Debug\net7.0\ref\CourseProject.dll
 C:\SCCourseWork\CourseProject\bin\Debug\net7.0\libman.json
 C:\SCCourseWork\CourseProject\bin\Debug\net7.0\CourseProject.staticwebassets.runtime.json
+C:\SCCourseWork\CourseProject\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

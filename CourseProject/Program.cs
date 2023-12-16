@@ -1,5 +1,6 @@
 using CourseProject.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
@@ -8,6 +9,15 @@ builder.Services.AddDbContext<PlatformDbContext>(opts =>
 {
     opts.UseSqlServer(builder.Configuration["ConnectionStrings:AdvertisementPlatformConnection"]);
 });
+
+builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+    options.UseSqlServer(builder.Configuration["ConnectionStrings:IdentityConnection"]));
+
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<AppIdentityDbContext>()
+    .AddUserValidator<CustomUserValidator<IdentityUser>>();
+
 
 builder.Services.AddScoped<IPlatformRepository, EFPlatformRepository>();
 
@@ -30,5 +40,6 @@ app.MapControllerRoute("adpage", "Ad/{adId:int}", new { Controller = "Ad", actio
 app.MapDefaultControllerRoute();
 
 SeedData.EnsurePopulated(app);
+IdentitySeedData.EnsurePopulated(app);
 
 app.Run();
