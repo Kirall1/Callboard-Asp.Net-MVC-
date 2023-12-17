@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dlu/I38tbS22Aj3RFPvCfgWdwTodPmM/zUC/s2i5CYA=",
+  "Hash": "xqRHLf0taN/Ter9tL/DDVj6/cKsrIarN6YLVWJIn9pU=",
   "Source": "CourseProject",
   "BasePath": "_content/CourseProject",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Account\\account.js"
+    },
+    {
+      "Identity": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\sign-in.js",
+      "SourceId": "CourseProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SCCourseWork\\CourseProject\\wwwroot\\",
+      "BasePath": "_content/CourseProject",
+      "RelativePath": "Account/sign-in.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Account\\sign-in.js"
     },
     {
       "Identity": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Account\\sign-up.js",

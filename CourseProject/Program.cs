@@ -31,6 +31,7 @@ app.MapControllerRoute("catpage", "{category}/Page{adPage:int}", new { Controlle
 app.MapControllerRoute("page", "Page{adPage:int}", new { Controller = "Home", action = "Index", productPage = 1 });
 app.MapControllerRoute("category", "{category}", new { Controller = "Home", action = "Index", productPage = 1 });
 app.MapControllerRoute("pagination", "Ads/Page{adPage}", new { Controller = "Home", action = "Index" });
+app.MapControllerRoute("userads", "Ads/MyAds/Page{adPage:int}", new { Controller = "Home", action = "UserAds", productPage = 1 });
 
 
 app.MapControllerRoute("adpage", "Ad/{adId:int}", new { Controller = "Ad", action = "Index" });
