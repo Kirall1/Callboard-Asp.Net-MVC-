@@ -18,6 +18,7 @@ namespace CourseProject.Controllers
             signInManager = signInMgr;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public ViewResult SignIn()
         {
@@ -28,7 +29,7 @@ namespace CourseProject.Controllers
             });
         }
 
-
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SignIn(SignInModel signinmodel)
@@ -49,6 +50,7 @@ namespace CourseProject.Controllers
             return View(signinmodel);
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public ViewResult SignUp()
         {
@@ -61,7 +63,7 @@ namespace CourseProject.Controllers
             });
         }
 
-
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> SignUp(SignUpModel signUpModel)
@@ -83,10 +85,14 @@ namespace CourseProject.Controllers
                     ModelState.AddModelError("", error.Description);
                 }
             }
-
-
             // If registration fails, return to the SignUp view with the model to display errors
             return View(signUpModel);
+        }
+        [Authorize]
+        public async Task<IActionResult> LogOut()
+        {
+            await signInManager.SignOutAsync();
+            return Redirect("/");
         }
     }
 }

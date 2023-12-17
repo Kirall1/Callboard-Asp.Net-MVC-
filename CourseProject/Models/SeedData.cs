@@ -32,8 +32,8 @@ namespace CourseProject.Models
                 context.Ads.AddRange(
                     new Ad
                     {
-                        Owner = "John Doe",
-                        OwnerPhone = "1234567890",
+                        Owner = "Alexi",
+                        OwnerPhone = "1111111111",
                         City = "New York",
                         Name = "Smartphone",
                         Description = "A modern smartphone with advanced features",
@@ -44,7 +44,7 @@ namespace CourseProject.Models
                     },
                     new Ad
                     {
-                        Owner = "Jane Doe",
+                        Owner = "Max",
                         OwnerPhone = "9876543210",
                         City = "Los Angeles",
                         Name = "Mountain Bike",
@@ -56,7 +56,7 @@ namespace CourseProject.Models
                     },
                     new Ad
                     {
-                        Owner = "Bob Smith",
+                        Owner = "Pikagem",
                         OwnerPhone = "1212121212",
                         City = "Chicago",
                         Name = "Laptop",
@@ -68,7 +68,7 @@ namespace CourseProject.Models
                     },
                     new Ad
                     {
-                        Owner = "Sally Johnson",
+                        Owner = "Kir",
                         OwnerPhone = "5551234555",
                         City = "New York",
                         Name = "Coffee Table",

@@ -1,4 +1,5 @@
 using CourseProject.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CourseProject.Controllers
@@ -11,7 +12,7 @@ namespace CourseProject.Controllers
         {
             this.repository = repository;
         }
-
+        [AllowAnonymous]
         public ViewResult Index(int? adId) =>
             View(repository.Ads.FirstOrDefault(a => a.AdID == adId));
 

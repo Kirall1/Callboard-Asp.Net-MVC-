@@ -31,6 +31,19 @@ namespace CourseProject.Migrations
                 {
                     table.PrimaryKey("PK_Ads", x => x.AdID);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Categories",
+                columns: table => new
+                {
+                    CategoryID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categories", x => x.CategoryID);
+                });
         }
 
         /// <inheritdoc />
@@ -38,6 +51,9 @@ namespace CourseProject.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Ads");
+
+            migrationBuilder.DropTable(
+                name: "Categories");
         }
     }
 }

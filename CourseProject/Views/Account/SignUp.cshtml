@@ -8,8 +8,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Регистрация</title>
-    @* <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles/styles.css" /> *@
 </head>
 
 <body>
@@ -56,9 +54,9 @@
                 <button type="submit" class="btn btn-primary" style="margin-left: 15px;">Зарегистрироваться</button>
             </form>
         </div>
+        <div asp-validation-summary="All"></div>
     </div>
     <script src="sign-up.js" type="module"> </script>
-    <script src="account.js" type="module"></script>
 </body>
 
 </html>
