@@ -42,7 +42,7 @@ function validatePhone(phone) {
         removeError(phone);
     }
     else {
-        showError(phone, "Неверный номер телефона");
+        showError(phone, "Unacceptable phone number");
     }
 }
 
@@ -53,7 +53,7 @@ function validateName(name) {
         removeError(name);
     }
     else {
-        showError(name, "Недопустимый логин")
+        showError(name, "Unacceptable login")
     }
 
 }
@@ -67,7 +67,7 @@ function validatePassword(password) {
         removeError(password);
     }
     else {
-        showError(password, "Недопустимый пароль");
+        showError(password, "Unacceptable password");
     }
 }
 
@@ -80,7 +80,7 @@ function validateConfirmPassword(password, confirmPassword) {
         removeError(confirmPassword);
     }
     else {
-        showError(confirmPassword, "Пароли не совпадают");
+        showError(confirmPassword, "Password mismatch");
     }
 }
 

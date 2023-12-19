@@ -63,7 +63,7 @@ namespace CourseProject.Models
                         Description = "A powerful laptop with advanced features",
                         Price = 1299.99m,
                         Category = "Electronics",
-                        Photos = "/Photos/3/1.jpg|/Photos/3/2.jpg|/Photos/3/3.jpg",
+                        Photos = "/Photos/3/1.jpg|/Photos/3/2.jpg|/Photos/3/3.jpg|/Photos/3/4.jpg|/Photos/3/5.jpg",
                         CreatedDate = DateTime.Now
                     },
                     new Ad

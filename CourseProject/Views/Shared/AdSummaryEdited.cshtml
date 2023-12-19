@@ -1,0 +1,18 @@
+@model Ad
+<a class="not-link" href="/EditAd/@Model.AdID">
+    <div class="card-wrapper">
+        <div class="image-container">
+            <img src="@Model.Photos.Split("|")[0]">
+        </div>
+        <div class="details">
+            <h4>
+                @Model.Name
+                <span class="price">$@Model.Price
+            </h4>
+
+            <div>City: @Model.City</div>
+
+            <div>Uploaded on: @Model.CreatedDate</div>
+        </div>
+    </div>
+</a>

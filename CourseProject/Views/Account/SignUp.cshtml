@@ -7,18 +7,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Регистрация</title>
+    <title>Registration</title>
 </head>
 
 <body>
     <div class="container mt-5">
-        <h2 class="mb-4 text-center navbar-brand" style="font-size: 24px;">Регистрация</h2>
+        <h2 class="mb-4 text-center navbar-brand" style="font-size: 24px;">Registration</h2>
         <div class="d-flex justify-content-center">
             <form asp-action="SignUp" method="post" class="text-center account-form" id="sign_up_form">
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Phone" type="tel" name="phone" id="phone" class="form-control"
-                            placeholder="Введите номер телефона">
+                            placeholder="Enter phone number">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
@@ -27,7 +27,7 @@
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Name" type="text" name="name" id="name" class="form-control"
-                            placeholder="Введите логин">
+                            placeholder="Enter login">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
@@ -36,7 +36,7 @@
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Password" type="password" name="password" id="password" class="form-control"
-                            placeholder="Введите пароль">
+                            placeholder="Enter password">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
@@ -45,13 +45,13 @@
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="ConfirmPassword" type="password" name="confirm_password" id="confirm_password"
-                            class="form-control" placeholder="Подтвердите пароль">
+                            class="form-control" placeholder="Confirm password">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary" style="margin-left: 15px;">Зарегистрироваться</button>
+                <button type="submit" class="btn btn-primary" style="margin-left: 15px;">Sign Up</button>
             </form>
         </div>
         <div asp-validation-summary="All"></div>

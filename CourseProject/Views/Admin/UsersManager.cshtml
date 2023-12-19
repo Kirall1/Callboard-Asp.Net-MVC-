@@ -1,0 +1,32 @@
+@model List<UsersManagerViewModel>;
+
+<body>
+    <table class="table table-sm table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Number of Ads</th>
+                <td />
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (UsersManagerViewModel u in @Model)
+            {
+                <tr>
+                    <td>@u.Name</td>
+                    <td>@u.Phone</td>
+                    <td>@u.AdCount</td>
+                    <td>
+                        <button class="btn btn-danger" onclick="openLink('/Admin/DeleteUser/@u.Name')">
+                            Ban
+                        </button>
+
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</body>

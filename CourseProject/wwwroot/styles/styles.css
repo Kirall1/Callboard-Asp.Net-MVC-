@@ -9,9 +9,16 @@
     border-radius: 10px;
 }
 
+.card-wrapper .image-container {
+    width: 420px;
+    display: flex;
+    justify-content: center;
+}
+
 .card-wrapper img {
-    margin-left: 10px;
-    width: 400px;
+    margin: 10px;
+    max-width: 400px;
+    max-height: 400px;
     object-fit: cover;
 }
 
@@ -37,7 +44,7 @@
 .ad-view {
     font-family: Arial, sans-serif;
     display: flex;
-    height: 80%;
+    height: 75%;
 }
 
 .ad-view .sidebar {
@@ -49,7 +56,6 @@
 
 .ad-view .sidebar .image-container {
 
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
@@ -90,6 +96,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .ad-view .content .selected-image-container img {
@@ -97,7 +104,6 @@
     max-height: 100%;
     width: auto;
     height: auto;
-    margin: 10px;
     float: left;
     object-fit: cover;
 }
@@ -147,4 +153,9 @@
 
 .from-pole {
     margin-left: 0px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
