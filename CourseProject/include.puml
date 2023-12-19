@@ -1,0 +1,35 @@
+@startuml
+!include .\\Program.puml
+!include .\\Components\NavigationMenuViewComponent.puml
+!include .\\Controllers\AccountController.puml
+!include .\\Controllers\AdController.puml
+!include .\\Controllers\AdminController.puml
+!include .\\Controllers\HomeController.puml
+!include .\\Infrastructure\PageLinkTagHelper.puml
+!include .\\Migrations\20231217145221_Initial.puml
+!include .\\Migrations\20231217145221_Initial.Designer.puml
+!include .\\Migrations\PlatformDbContextModelSnapshot.puml
+!include .\\Models\Ad.puml
+!include .\\Models\AppIdentityDbContext.puml
+!include .\\Models\Category.puml
+!include .\\Models\CustomUserValidator.puml
+!include .\\Models\EFPlatformRepository.puml
+!include .\\Models\IdentitySeedData.puml
+!include .\\Models\IPlatformRepository.puml
+!include .\\Models\PlatformDbContext.puml
+!include .\\Models\SeedData.puml
+!include .\\Migrations\AppIdentityDb\20231215145742_Initial.puml
+!include .\\Migrations\AppIdentityDb\20231215145742_Initial.Designer.puml
+!include .\\Migrations\AppIdentityDb\AppIdentityDbContextModelSnapshot.puml
+!include .\\Models\ViewModels\AdsListViewModel.puml
+!include .\\Models\ViewModels\AdViewModel.puml
+!include .\\Models\ViewModels\ErrorViewModel.puml
+!include .\\Models\ViewModels\PageInfo.puml
+!include .\\Models\ViewModels\SignInModel.puml
+!include .\\Models\ViewModels\SignUpModel.puml
+!include .\\Models\ViewModels\UsersManagerViewModel.puml
+!include .\\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net7.0\CourseProject.AssemblyInfo.puml
+!include .\\obj\Debug\net7.0\CourseProject.GlobalUsings.g.puml
+!include .\\obj\Debug\net7.0\CourseProject.RazorAssemblyInfo.puml
+@enduml

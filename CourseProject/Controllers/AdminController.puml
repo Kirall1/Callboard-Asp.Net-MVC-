@@ -1,0 +1,11 @@
+@startuml
+class AdminController {
+    - userManager : UserManager<IdentityUser>
+    - signInManager : SignInManager<IdentityUser>
+    - repository : IPlatformRepository
+    + AdminController(userMgr:UserManager<IdentityUser>, signInMgr:SignInManager<IdentityUser>, repo:IPlatformRepository)
+    + UsersManager() : IActionResult
+    + <<async>> DeleteUser(name:string) : Task<IActionResult>
+}
+Controller <|-- AdminController
+@enduml

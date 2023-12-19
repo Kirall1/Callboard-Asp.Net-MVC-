@@ -1,0 +1,6 @@
+@startuml
+class AppIdentityDbContextModelSnapshot <<partial>> {
+    # <<override>> BuildModel(modelBuilder:ModelBuilder) : void
+}
+ModelSnapshot <|-- AppIdentityDbContextModelSnapshot
+@enduml

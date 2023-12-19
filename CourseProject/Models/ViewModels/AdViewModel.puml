@@ -1,0 +1,13 @@
+@startuml
+class AdViewModel {
+    + AdID : long? <<get>> <<set>> = 0
+    + Name : string? <<get>> <<set>>
+    + Price : decimal? <<get>> <<set>> = 0
+    + City : string? <<get>> <<set>>
+    + Description : string? <<get>> <<set>>
+    + Photos : string? <<get>> <<set>>
+    + Categories : IQueryable<string?>? <<get>> <<set>> = null
+    + Category : string? <<get>> <<set>>
+    + UserPhotos : IFormFileCollection <<get>> <<set>>
+}
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class NavigationMenuViewComponentTests {
+    + Can_Select_Categories() : void
+    + Indicates_Selected_Category() : void
+    + Generate_Category_Specific_Product_Count() : void
+}
+@enduml

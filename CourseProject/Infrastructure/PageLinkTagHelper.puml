@@ -1,0 +1,16 @@
+@startuml
+class PageLinkTagHelper {
+    - urlHelperFactory : IUrlHelperFactory
+    + PageLinkTagHelper(helperFactory:IUrlHelperFactory)
+    + ViewContext : ViewContext? <<get>> <<set>>
+    + PageModel : PagingInfo? <<get>> <<set>>
+    + PageAction : string? <<get>> <<set>>
+    + PageUrlValues : Dictionary<string, object> <<get>> <<set>>
+    + PageClassesEnabled : bool <<get>> <<set>> = false
+    + PageClass : string <<get>> <<set>>
+    + PageClassNormal : string <<get>> <<set>>
+    + PageClassSelected : string <<get>> <<set>>
+    + <<override>> Process(context:TagHelperContext, output:TagHelperOutput) : void
+}
+TagHelper <|-- PageLinkTagHelper
+@enduml

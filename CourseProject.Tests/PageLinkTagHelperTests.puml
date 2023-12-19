@@ -1,0 +1,5 @@
+@startuml
+class PageLinkTagHelperTests {
+    + Can_Generate_Page_Links() : void
+}
+@enduml

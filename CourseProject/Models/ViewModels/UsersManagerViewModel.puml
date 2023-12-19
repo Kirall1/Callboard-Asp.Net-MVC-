@@ -1,0 +1,7 @@
+@startuml
+class UsersManagerViewModel {
+    + Name : string <<get>> <<set>>
+    + Phone : string <<get>> <<set>>
+    + AdCount : int <<get>> <<set>> = 0
+}
+@enduml

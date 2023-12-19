@@ -1,0 +1,13 @@
+@startuml
+class AdController {
+    - repository : IPlatformRepository
+    - webHostEnvironment : IWebHostEnvironment
+    - userManager : UserManager<IdentityUser>
+    + AdController(repository:IPlatformRepository, webHostEnvironment:IWebHostEnvironment, userManager:UserManager<IdentityUser>)
+    + Index(adId:int?) : ViewResult
+    + AdEditor(adId:int?) : IActionResult
+    + <<async>> AdEditor(model:AdViewModel) : Task<IActionResult>
+    + DeleteAd(AdId:long?) : IActionResult
+}
+Controller <|-- AdController
+@enduml

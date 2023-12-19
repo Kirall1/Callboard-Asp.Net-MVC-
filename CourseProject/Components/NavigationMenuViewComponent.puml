@@ -1,0 +1,8 @@
+@startuml
+class NavigationMenuViewComponent {
+    - repository : IPlatformRepository
+    + NavigationMenuViewComponent(repo:IPlatformRepository)
+    + Invoke() : IViewComponentResult
+}
+ViewComponent <|-- NavigationMenuViewComponent
+@enduml

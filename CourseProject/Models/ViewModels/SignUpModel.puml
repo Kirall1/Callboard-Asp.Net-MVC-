@@ -1,0 +1,8 @@
+@startuml
+class SignUpModel {
+    + <<required>> Phone : string <<get>> <<set>>
+    + <<required>> Name : string <<get>> <<set>>
+    + <<required>> Password : string <<get>> <<set>>
+    + <<required>> ConfirmPassword : string <<get>> <<set>>
+}
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class IdentitySeedData <<static>> {
+    - <<const>> adminUser : string = "Admin"
+    - <<const>> adminPassword : string = "Secret123$"
+    + {static} <<async>> EnsurePopulated(app:IApplicationBuilder) : void
+}
+@enduml

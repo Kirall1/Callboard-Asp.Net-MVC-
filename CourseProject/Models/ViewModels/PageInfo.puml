@@ -1,0 +1,8 @@
+@startuml
+class PagingInfo {
+    + TotalItems : int <<get>> <<set>>
+    + ItemsPerPage : int <<get>> <<set>>
+    + CurrentPage : int <<get>> <<set>>
+    + TotalPages : int <<get>>
+}
+@enduml
