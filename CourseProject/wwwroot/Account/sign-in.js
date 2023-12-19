@@ -27,7 +27,7 @@ function validateName(name) {
         removeError(name);
     }
     else {
-        showError(name, "Недопустимый логин")
+        showError(name, "Unacceptable login")
     }
 
 }
@@ -41,7 +41,7 @@ function validatePassword(password) {
         removeError(password);
     }
     else {
-        showError(password, "Недопустимый пароль");
+        showError(password, "Unacceptable password");
     }
 }
 

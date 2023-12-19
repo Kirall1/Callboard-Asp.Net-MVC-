@@ -8,33 +8,33 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Авторизация</title>
+    <title>Authorization</title>
 </head>
 
 <body>
     <div class="container mt-4">
-        <h2 class="mb-4 text-center navbar-brand" style="font-size: 24px;">Авторизация</h2>
+        <h2 class="mb-4 text-center navbar-brand" style="font-size: 24px;">Authorization</h2>
         <div class="d-flex justify-content-center">
             <form asp-action="SignIn" method="post" class="text-center account-form" id="sign_in_form">
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Name" type="text" name="name" id="name" class="form-control"
-                            placeholder="Введите логин">
+                            placeholder="Enter login">
                     </div>
-                    <div class="d-flex justify-content-left">
+                    <div class=" d-flex justify-content-left">
                         <p><br></p>
                     </div>
                 </div>
                 <div class="mb-3">
                     <div class="d-flex justify-content-center">
                         <input asp-for="Password" type="password" name="password" id="password" class="form-control"
-                            placeholder="Введите пароль">
+                            placeholder="Enter password">
                     </div>
                     <div class="d-flex justify-content-left">
                         <p><br></p>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary" style="margin-left: 15px;">Войти</button>
+                <button type="submit" class="btn btn-primary" style="margin-left: 15px;">Sign In</button>
             </form>
         </div>
         <div asp-validation-summary="All"></div>

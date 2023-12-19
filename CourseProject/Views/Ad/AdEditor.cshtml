@@ -1,0 +1,90 @@
+@model AdViewModel;
+
+<body>
+    <form asp-action="AdEditor" method="post" enctype="multipart/form-data" style="height: 100%;">
+        <div class="ad-view">
+            <div class="sidebar" id="sidebar">
+                @if (Model.Photos != String.Empty)
+                {
+                    <div class="image-container not-highlighted" id="1" onmouseover="highlightContainer(this)"
+                        onmouseout="resetContainer(this)">
+                        <img src=" @Model.Photos.Split("|")[0]" />
+                        <button type="button" class="btn btn-danger delete-button" onclick="deleteImage(this)"
+                            onmouseover="removeListener(this)" onmouseout="addListener(this)">Delete</button>
+                    </div>
+                }
+                @for (int i = 1; i < Model.Photos.Split("|").Length; i++)
+                {
+                    <div class="image-container not-highlighted" onmouseover="highlightContainer(this)"
+                        onmouseout="resetContainer(this)">
+                        <img src=" @Model.Photos.Split("|")[i]" />
+                        <button type="button" class="btn btn-danger delete-button"
+                            onclick="deleteImage(this)">Delete</button>
+                    </div>
+                }
+            </div>
+            <div class="content">
+                <div class="selected-image-container" id="selectedImageContainer">
+                    <img src="@Model.Photos.Split("|")[0]">
+                </div>
+                <div>
+                    <input asp-for="AdID" type="hidden" />
+                    <input asp-for="Photos" type="hidden" id="photosOld" />
+                    <div style="padding-bottom: 15px">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <br>
+                    </div>
+
+                    <div style="padding-bottom: 15px">
+                        <label asp-for="Price"></label>
+                        <input asp-for="Price" class="form-control" />
+                        <br>
+                    </div>
+
+                    <div style="padding-bottom: 15px">
+                        <label asp-for="City"></label>
+                        <input asp-for="City" class="form-control" />
+                        <br>
+                    </div>
+                    <div style="padding-bottom: 15px;">
+                        <label asp-for="Category"></label>
+                        <select asp-for="Category" class="form-select">
+                            @foreach (string cat in Model.Categories)
+                            {
+                                <option value="@cat">@cat</option>
+                            }
+                        </select>
+                        <br>
+
+                    </div>
+                    <div style="padding-bottom: 15px">
+                        <label asp-for="UserPhotos"></label>
+                        <input asp-for="UserPhotos" id="photos" type="file" accept="image/*" multiple
+                            class="form-control" />
+                        <br>
+                    </div>
+                    <div style="padding-bottom: 15px">
+                        <button type="submit" class="btn btn-primary">Save Ad</button>
+                        <button class="btn btn-danger" onclick="openLink('/Ads/MyAds/Page1')"> Discard Changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 15px">
+            <h3>Description</h3>
+        </div>
+        <div style="height: 100px">
+            <textarea asp-for="Description" class="form-control desc"></textarea>
+        </div>
+    </form>
+    <button class="btn btn-danger" style="margin: 10px;" onclick="openLink('/DeleteAd/@Model.AdID')">Delete
+        Ad</button>
+    <script src="ad-form.js"></script>
+    <style>
+        .desc {
+            height: 100%;
+        }
+    </style>
+</body>

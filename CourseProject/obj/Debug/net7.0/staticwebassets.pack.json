@@ -17,6 +17,26 @@
       "PackagePath": "staticwebassets\\Ad\\ad-view.js"
     },
     {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\EditAd\\ad-form.js",
+      "PackagePath": "staticwebassets\\EditAd\\ad-form.js"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\10\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\10\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\10\\2.jpg",
+      "PackagePath": "staticwebassets\\Photos\\10\\2.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\1\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\1\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\2\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\2\\1.jpg"
+    },
+    {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\1.jpg",
       "PackagePath": "staticwebassets\\Photos\\3\\1.jpg"
     },
@@ -35,6 +55,54 @@
     {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\3\\5.jpg",
       "PackagePath": "staticwebassets\\Photos\\3\\5.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\4\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\4\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\5\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\5\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\5\\2.jpg",
+      "PackagePath": "staticwebassets\\Photos\\5\\2.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\5\\3.jpg",
+      "PackagePath": "staticwebassets\\Photos\\5\\3.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\6\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\6\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\6\\2.jpg",
+      "PackagePath": "staticwebassets\\Photos\\6\\2.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\6\\3.jpg",
+      "PackagePath": "staticwebassets\\Photos\\6\\3.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\6\\4.jpg",
+      "PackagePath": "staticwebassets\\Photos\\6\\4.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\7\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\7\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\7\\2.jpg",
+      "PackagePath": "staticwebassets\\Photos\\7\\2.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\8\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\8\\1.jpg"
+    },
+    {
+      "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\Photos\\9\\1.jpg",
+      "PackagePath": "staticwebassets\\Photos\\9\\1.jpg"
     },
     {
       "Id": "C:\\SCCourseWork\\CourseProject\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",

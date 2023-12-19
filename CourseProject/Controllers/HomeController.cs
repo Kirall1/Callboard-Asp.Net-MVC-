@@ -55,6 +55,9 @@ namespace CourseProject.Controllers
                 }
             });
         }
+
+        [AllowAnonymous]
+        public ViewResult Error(string errorMessage) => View(new ErrorViewModel { ErrorMessage = errorMessage });
     }
 
 }
