@@ -1,0 +1,8 @@
+@startuml
+class PlatformDbContext {
+    + PlatformDbContext(options:DbContextOptions<PlatformDbContext>)
+    + Ads : DbSet<Ad> <<get>>
+    + Categories : DbSet<Category> <<get>>
+}
+DbContext <|-- PlatformDbContext
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+class AppIdentityDbContext {
+    + AppIdentityDbContext(options:DbContextOptions<AppIdentityDbContext>)
+}
+"IdentityDbContext`1" "<IdentityUser>" <|-- AppIdentityDbContext
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class HomeControllerTests {
+    + Can_Use_Repository() : void
+    + Can_Paginate() : void
+    + Can_Send_Pagination_View_Model() : void
+    + Can_Filter_Products() : void
+}
+@enduml

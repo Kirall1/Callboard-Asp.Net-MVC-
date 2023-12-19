@@ -1,0 +1,13 @@
+@startuml
+class EFPlatformRepository {
+    - context : PlatformDbContext
+    + EFPlatformRepository(context:PlatformDbContext)
+    + Ads : IQueryable<Ad> <<get>>
+    + Categories : IQueryable<Category> <<get>>
+    + CreateAd(a:Ad) : void
+    + DeleteAd(a:Ad) : void
+    + SaveAd(a:Ad) : void
+    + SaveChanges() : void
+}
+IPlatformRepository <|-- EFPlatformRepository
+@enduml

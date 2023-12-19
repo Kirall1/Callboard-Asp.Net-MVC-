@@ -1,0 +1,7 @@
+@startuml
+class AdsListViewModel {
+    + Ads : IEnumerable<Ad> <<get>> <<set>>
+    + PagingInfo : PagingInfo <<get>> <<set>>
+    + CurrentCategory : string? <<get>> <<set>>
+}
+@enduml

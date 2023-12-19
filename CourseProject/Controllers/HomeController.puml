@@ -1,0 +1,11 @@
+@startuml
+class HomeController {
+    - repository : IPlatformRepository
+    + PageSize : int = 10
+    + HomeController(repository:IPlatformRepository)
+    + Index(category:string?, adPage:int) : ViewResult
+    + UserAds(adPage:int) : ViewResult
+    + Error(errorMessage:string) : ViewResult
+}
+Controller <|-- HomeController
+@enduml

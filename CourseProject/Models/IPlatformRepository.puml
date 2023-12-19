@@ -1,0 +1,10 @@
+@startuml
+interface IPlatformRepository {
+    Ads : IQueryable<Ad> <<get>>
+    Categories : IQueryable<Category> <<get>>
+    SaveAd(a:Ad) : void
+    CreateAd(a:Ad) : void
+    DeleteAd(a:Ad) : void
+    SaveChanges() : void
+}
+@enduml

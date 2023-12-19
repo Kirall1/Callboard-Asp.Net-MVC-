@@ -1,0 +1,6 @@
+@startuml
+class "CustomUserValidator`1"<TUser> {
+    + <<override>> <<async>> ValidateAsync(manager:UserManager<TUser>, user:TUser) : Task<IdentityResult>
+}
+"UserValidator`1" "<TUser>" <|-- "CustomUserValidator`1"
+@enduml

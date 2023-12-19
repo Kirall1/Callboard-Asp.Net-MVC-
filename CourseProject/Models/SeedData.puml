@@ -1,0 +1,5 @@
+@startuml
+class SeedData <<static>> {
+    + {static} EnsurePopulated(app:IApplicationBuilder) : void
+}
+@enduml

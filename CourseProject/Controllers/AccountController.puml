@@ -1,0 +1,13 @@
+@startuml
+class AccountController {
+    - userManager : UserManager<IdentityUser>
+    - signInManager : SignInManager<IdentityUser>
+    + AccountController(userMgr:UserManager<IdentityUser>, signInMgr:SignInManager<IdentityUser>)
+    + SignIn() : ViewResult
+    + <<async>> SignIn(signinmodel:SignInModel) : Task<IActionResult>
+    + SignUp() : ViewResult
+    + <<async>> SignUp(signUpModel:SignUpModel) : Task<IActionResult>
+    + <<async>> LogOut() : Task<IActionResult>
+}
+Controller <|-- AccountController
+@enduml
