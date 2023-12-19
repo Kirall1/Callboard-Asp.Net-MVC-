@@ -1,0 +1,36 @@
+﻿@model Ad
+<a class="not-link" href="/Ad/@Model.AdID" id="linkHandler">
+    <div class="card-wrapper">
+        <div class="image-container">
+            <img src="@Model.Photos.Split("|")[0]">
+        </div>
+        <div class="details">
+            <h4>
+                @Model.Name
+            </h4>
+            <h4>
+                $@Model.Price
+            </h4>
+
+            <div>City: @Model.City</div>
+
+            <div>Uploaded on: @Model.CreatedDate</div>
+        </div>
+        @if (User.Identity.Name == "Admin")
+        {
+            <div>
+                <button class="btn btn-danger" style="margin: 10px;" onclick="openLink('/DeleteAd/@Model.AdID') id="
+                    DeleteButton" onmouseover="changelink('/DeleteAd/@Model.AdID')"
+                    onmouseout="changelink('/Ad/@Model.AdID')">Delete
+                    Ad</button>
+            </div>
+        }
+
+    </div>
+</a>
+<script>
+    function changelink(s) {
+        var element = document.getElementById("linkHandler")
+        element.href = s;
+    }
+</script>

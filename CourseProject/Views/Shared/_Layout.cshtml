@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Advertesment Platform</title>
+  <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/styles.css" />
+</head>
+
+<body>
+
+  <div class="bg-dark text-white d-flex justify-content-between">
+    <div>
+      <a class="not-link-logo" href="/">
+        <h2>
+          <span class="navbar-brand">ADVERTESMENT PLATFORM
+        </h2>
+      </a>
+    </div>
+
+    <div class="ml-auto">
+      <button class="btn btn-light" onclick="openLink('/Account/SignIn')">Sign In</button>
+      <button class="btn btn-primary" onclick="openLink('/Account/SignUp')">Sign Up</button>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="row m-1 p-1">
+    <div id="categories" class="col-2">
+      <vc:navigation-menu />
+    </div>
+    <div class="layout col-10">
+      @RenderBody()
+    </div>
+  </div>
+
+</body>
+<script>
+  function openLink(link) {
+    window.location.href = link;
+  }
+</script>
+
+</html>

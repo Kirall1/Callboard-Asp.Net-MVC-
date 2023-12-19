@@ -1,0 +1,14 @@
+﻿@{
+    if (User.Identity.Name == "Admin")
+    {
+        Layout = "_AdminLayout";
+    }
+    else if (User.Identity.IsAuthenticated)
+    {
+        Layout = "_AuthenticatedLayout";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
+}

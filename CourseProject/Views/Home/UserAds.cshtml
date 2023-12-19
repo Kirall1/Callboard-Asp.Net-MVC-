@@ -1,0 +1,13 @@
+<div>
+    <button class="btn btn-primary" onclick="openLink('/EditAd/0')">New Ad</button>
+</div>
+
+@foreach (var a in Model.Ads ?? Enumerable.Empty<Ad>())
+{
+    <partial name="AdSummaryEdited" model="a" />
+}
+
+<div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="btn"
+    page-class-normal="btn-outline-dark" page-class-selected="btn-primary" page-url-category="@Model.CurrentCategory!"
+    class="btn-group pull-right m-1">
+</div>

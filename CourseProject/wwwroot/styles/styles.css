@@ -1,0 +1,161 @@
+.layout {
+    height: 650px;
+}
+
+.card-wrapper {
+    display: flex;
+    margin-bottom: 15px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+.card-wrapper .image-container {
+    width: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrapper img {
+    margin: 10px;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card-wrapper .details {
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.card-wrapper .details .price {
+    margin-left: 15px;
+}
+
+.not-link {
+    text-decoration: none;
+    color: initial;
+}
+
+.not-link-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.ad-view {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 75%;
+}
+
+.ad-view .sidebar {
+    width: 20%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ad-view .sidebar .image-container {
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.highlighted {
+    border: 3px solid rgb(114, 142, 226);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.not-highlighted {
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+.ad-view .sidebar .image-container img {
+    max-width: 90%;
+    max-height: 20%;
+    height: auto;
+    width: auto;
+    margin: 10px 10px;
+    object-fit: cover;
+}
+
+.ad-view .content {
+    width: auto;
+    right: 0;
+    top: 0;
+    flex: 1;
+    display: flex;
+}
+
+.ad-view .content .selected-image-container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.ad-view .content .selected-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    float: left;
+    object-fit: cover;
+}
+
+.ad-view .content h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px;
+    clear: both;
+    flex: 1;
+}
+
+.ad-view .content p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px;
+}
+
+.description {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+.description h1 {
+    font-size: 30px;
+    color: #333;
+    margin: 10px;
+}
+
+.description p {
+    font-size: 20px;
+    color: #666;
+    margin: 10px;
+}
+
+.selected {
+    border: 3px solid blue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.account-form {
+    width: 40%;
+}
+
+.from-pole {
+    margin-left: 0px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
