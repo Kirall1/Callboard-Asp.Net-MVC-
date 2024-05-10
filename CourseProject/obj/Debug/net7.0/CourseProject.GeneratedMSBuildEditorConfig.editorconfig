@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CourseProject
 build_property.RootNamespace = CourseProject
-build_property.ProjectDir = C:\SCCourseWork\CourseProject\
+build_property.ProjectDir = C:\Курсач СП\CourseProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\SCCourseWork\CourseProject
+build_property.MSBuildProjectDirectory = C:\Курсач СП\CourseProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/SCCourseWork/CourseProject/Views/Account/SignIn.cshtml]
+[C:/Курсач СП/CourseProject/Views/Account/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Account/SignUp.cshtml]
+[C:/Курсач СП/CourseProject/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Admin/UsersManager.cshtml]
+[C:/Курсач СП/CourseProject/Views/Admin/UsersManager.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnNNYW5hZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Ad/AdEditor.cshtml]
+[C:/Курсач СП/CourseProject/Views/Ad/AdEditor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRcQWRFZGl0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Ad/Index.cshtml]
+[C:/Курсач СП/CourseProject/Views/Ad/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Home/Error.cshtml]
+[C:/Курсач СП/CourseProject/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Home/Index.cshtml]
+[C:/Курсач СП/CourseProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Home/UserAds.cshtml]
+[C:/Курсач СП/CourseProject/Views/Home/UserAds.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyQWRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/AdSummary.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/AdSummary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/AdSummaryEdited.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/AdSummaryEdited.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkU3VtbWFyeUVkaXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/Components/NavigationMenu/Default.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/Components/NavigationMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvbk1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/_AccountLayout.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/_AccountLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/_AdminLayout.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/_AuthenticatedLayout.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/_AuthenticatedLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoZW50aWNhdGVkTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/Shared/_Layout.cshtml]
+[C:/Курсач СП/CourseProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/_ViewImports.cshtml]
+[C:/Курсач СП/CourseProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/SCCourseWork/CourseProject/Views/_ViewStart.cshtml]
+[C:/Курсач СП/CourseProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
